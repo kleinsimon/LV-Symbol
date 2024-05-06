@@ -8,7 +8,7 @@
 
 </Property>
 	<Item Name="Wrapper" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Helpers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -50,12 +50,6 @@
 		<Item Name="Glyph Get CBox.vi" Type="VI" URL="../Glyph Get CBox.vi"/>
 		<Item Name="Get Outline Box.vi" Type="VI" URL="../Get Outline Box.vi"/>
 	</Item>
-	<Item Name="Blend Colors.vi" Type="VI" URL="../Blend Colors.vi"/>
-	<Item Name="Blend U8.vi" Type="VI" URL="../Blend U8.vi"/>
-	<Item Name="Example.vi" Type="VI" URL="../Example.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
 	<Item Name="Freetype Drawer.lvclass" Type="LVClass" URL="../Class 1/Freetype Drawer.lvclass"/>
-	<Item Name="Get Transformation Components.vi" Type="VI" URL="../Get Transformation Components.vi"/>
-	<Item Name="Transform xy.vi" Type="VI" URL="../Transform xy.vi"/>
 </Library>
