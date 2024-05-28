@@ -13,7 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Glyph .NET.lvlib" Type="Library" URL="../Canvas/Glyph .NET.lvlib"/>
+		<Item Name="Glyph .NET Drawer.lvlib" Type="Library" URL="../Glyph .NET Drawer/Glyph .NET Drawer.lvlib"/>
 		<Item Name="Font Glyph Drawer Interface.lvlib" Type="Library" URL="../Font Glyph Drawer Interface/Font Glyph Drawer Interface.lvlib"/>
 		<Item Name="LV-Awesome.lvlib" Type="Library" URL="../LV-Awesome.lvlib"/>
 		<Item Name="Test Listbox.vi" Type="VI" URL="../Test Listbox.vi"/>
