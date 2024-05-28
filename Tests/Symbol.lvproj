@@ -2,7 +2,6 @@
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -14,16 +13,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Listbox.vi" Type="VI" URL="../Tests/Test Listbox.vi"/>
-			<Item Name="Test VI Window Icon.vi" Type="VI" URL="../Tests/Test VI Window Icon.vi"/>
-			<Item Name="Tree Test.vi" Type="VI" URL="../Tests/Tree Test.vi"/>
-			<Item Name="Untitled 1.vi" Type="VI" URL="../Tests/Untitled 1.vi"/>
-			<Item Name="Untitled 5.vi" Type="VI" URL="../Tests/Untitled 5.vi"/>
-		</Item>
 		<Item Name="Glyph .NET Drawer.lvlib" Type="Library" URL="../Glyph .NET Drawer/Glyph .NET Drawer.lvlib"/>
 		<Item Name="Font Glyph Drawer Interface.lvlib" Type="Library" URL="../Font Glyph Drawer Interface/Font Glyph Drawer Interface.lvlib"/>
-		<Item Name="LV-Awesome.lvlib" Type="Library" URL="../LV-Awesome/LV-Awesome.lvlib"/>
+		<Item Name="LV-Awesome.lvlib" Type="Library" URL="../LV-Awesome.lvlib"/>
+		<Item Name="Test Listbox.vi" Type="VI" URL="../Test Listbox.vi"/>
+		<Item Name="Test VI Window Icon.vi" Type="VI" URL="../Test VI Window Icon.vi"/>
+		<Item Name="Tree Test.vi" Type="VI" URL="../Tree Test.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
+		<Item Name="Untitled 5.vi" Type="VI" URL="../Untitled 5.vi"/>
 		<Item Name="Freetype Drawer.lvlib" Type="Library" URL="../Freetype Drawer/Freetype Drawer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -96,6 +93,7 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LVFont.dll" Type="Document" URL="../Canvas/LVFont.dll"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -103,7 +101,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="libfreetype.dll" Type="Document" URL="../Freetype Drawer/Wrappers/libfreetype.dll"/>
-			<Item Name="LVFont.dll" Type="Document" URL="../Glyph .NET Drawer/LVFont.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
