@@ -100,10 +100,6 @@
 			<Item Name="gdi32.dll" Type="Document" URL="gdi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Glyph Slot Rec.ctl" Type="VI" URL="../Freetype Drawer/Glyph Slot Rec.ctl"/>
-			<Item Name="FT Bitmap.ctl" Type="VI" URL="../Freetype Drawer/FT Bitmap.ctl"/>
-			<Item Name="FT Metrics RAW.ctl" Type="VI" URL="../Freetype Drawer/FT Metrics RAW.ctl"/>
-			<Item Name="libfreetype.dll" Type="Document" URL="../Freetype Drawer/libfreetype.dll"/>
 			<Item Name="libfreetype.dll" Type="Document" URL="../Freetype Drawer/Wrappers/libfreetype.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
