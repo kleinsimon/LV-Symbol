@@ -14,7 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Glyph .NET.lvlib" Type="Library" URL="../Canvas/Glyph .NET.lvlib"/>
-		<Item Name="Glyph Drawer.lvlib" Type="Library" URL="../Glyph/Glyph Drawer.lvlib"/>
+		<Item Name="Font Glyph Drawer Interface.lvlib" Type="Library" URL="../Font Glyph Drawer Interface/Font Glyph Drawer Interface.lvlib"/>
 		<Item Name="LV-Awesome.lvlib" Type="Library" URL="../LV-Awesome.lvlib"/>
 		<Item Name="Test Listbox.vi" Type="VI" URL="../Test Listbox.vi"/>
 		<Item Name="Test VI Window Icon.vi" Type="VI" URL="../Test VI Window Icon.vi"/>
@@ -100,7 +100,11 @@
 			<Item Name="gdi32.dll" Type="Document" URL="gdi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Glyph Slot Rec.ctl" Type="VI" URL="../Freetype Drawer/Glyph Slot Rec.ctl"/>
+			<Item Name="FT Bitmap.ctl" Type="VI" URL="../Freetype Drawer/FT Bitmap.ctl"/>
+			<Item Name="FT Metrics RAW.ctl" Type="VI" URL="../Freetype Drawer/FT Metrics RAW.ctl"/>
 			<Item Name="libfreetype.dll" Type="Document" URL="../Freetype Drawer/libfreetype.dll"/>
+			<Item Name="libfreetype.dll" Type="Document" URL="../Freetype Drawer/Wrappers/libfreetype.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -12,44 +12,44 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Helpers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Bitmap Glyph Data to Image.vi" Type="VI" URL="../Bitmap Glyph Data to Image.vi"/>
-			<Item Name="Bitmap Glyph.ctl" Type="VI" URL="../Bitmap Glyph.ctl"/>
-			<Item Name="Dereference Bitmap Glyph.vi" Type="VI" URL="../Dereference Bitmap Glyph.vi"/>
-			<Item Name="Dereference Bitmap.vi" Type="VI" URL="../Dereference Bitmap.vi"/>
-			<Item Name="Dereference Face.vi" Type="VI" URL="../Dereference Face.vi"/>
-			<Item Name="Dereference Glyph Record.vi" Type="VI" URL="../Dereference Glyph Record.vi"/>
-			<Item Name="Dereference Outline Glyph.vi" Type="VI" URL="../Dereference Outline Glyph.vi"/>
-			<Item Name="Face.ctl" Type="VI" URL="../Face.ctl"/>
-			<Item Name="Freetype Error.vi" Type="VI" URL="../Freetype Error.vi"/>
-			<Item Name="FT Bitmap.ctl" Type="VI" URL="../FT Bitmap.ctl"/>
-			<Item Name="FT Metrics RAW.ctl" Type="VI" URL="../FT Metrics RAW.ctl"/>
-			<Item Name="FT Metrics.ctl" Type="VI" URL="../FT Metrics.ctl"/>
-			<Item Name="FT26_6 to SGL.vi" Type="VI" URL="../FT26_6 to SGL.vi"/>
-			<Item Name="Get Face Family Name.vi" Type="VI" URL="../Get Face Family Name.vi"/>
-			<Item Name="Get Glyph Metrics.vi" Type="VI" URL="../Get Glyph Metrics.vi"/>
-			<Item Name="Glyph Rec.ctl" Type="VI" URL="../Glyph Rec.ctl"/>
-			<Item Name="Glyph Slot Rec.ctl" Type="VI" URL="../Glyph Slot Rec.ctl"/>
-			<Item Name="Outline Glyph Rec.ctl" Type="VI" URL="../Outline Glyph Rec.ctl"/>
-			<Item Name="Transform Outline Points.vi" Type="VI" URL="../Transform Outline Points.vi"/>
+			<Item Name="Bitmap Glyph Data to Image.vi" Type="VI" URL="../Wrappers/Bitmap Glyph Data to Image.vi"/>
+			<Item Name="Bitmap Glyph.ctl" Type="VI" URL="../Wrappers/Bitmap Glyph.ctl"/>
+			<Item Name="Dereference Bitmap Glyph.vi" Type="VI" URL="../Wrappers/Dereference Bitmap Glyph.vi"/>
+			<Item Name="Dereference Bitmap.vi" Type="VI" URL="../Wrappers/Dereference Bitmap.vi"/>
+			<Item Name="Dereference Face.vi" Type="VI" URL="../Wrappers/Dereference Face.vi"/>
+			<Item Name="Dereference Glyph Record.vi" Type="VI" URL="../Wrappers/Dereference Glyph Record.vi"/>
+			<Item Name="Dereference Outline Glyph.vi" Type="VI" URL="../Wrappers/Dereference Outline Glyph.vi"/>
+			<Item Name="Face.ctl" Type="VI" URL="../Wrappers/Face.ctl"/>
+			<Item Name="Freetype Error.vi" Type="VI" URL="../Wrappers/Freetype Error.vi"/>
+			<Item Name="FT Bitmap.ctl" Type="VI" URL="../Wrappers/FT Bitmap.ctl"/>
+			<Item Name="FT Metrics RAW.ctl" Type="VI" URL="../Wrappers/FT Metrics RAW.ctl"/>
+			<Item Name="FT Metrics.ctl" Type="VI" URL="../Wrappers/FT Metrics.ctl"/>
+			<Item Name="FT26_6 to SGL.vi" Type="VI" URL="../Wrappers/FT26_6 to SGL.vi"/>
+			<Item Name="Get Face Family Name.vi" Type="VI" URL="../Wrappers/Get Face Family Name.vi"/>
+			<Item Name="Get Glyph Metrics.vi" Type="VI" URL="../Wrappers/Get Glyph Metrics.vi"/>
+			<Item Name="Glyph Rec.ctl" Type="VI" URL="../Wrappers/Glyph Rec.ctl"/>
+			<Item Name="Glyph Slot Rec.ctl" Type="VI" URL="../Wrappers/Glyph Slot Rec.ctl"/>
+			<Item Name="Outline Glyph Rec.ctl" Type="VI" URL="../Wrappers/Outline Glyph Rec.ctl"/>
+			<Item Name="Transform Outline Points.vi" Type="VI" URL="../Wrappers/Transform Outline Points.vi"/>
 		</Item>
-		<Item Name="Done FreeType.vi" Type="VI" URL="../Done FreeType.vi"/>
-		<Item Name="Done Face.vi" Type="VI" URL="../Done Face.vi"/>
-		<Item Name="Get Glyph Slot Ref.vi" Type="VI" URL="../Get Glyph Slot Ref.vi"/>
-		<Item Name="Init FreeType.vi" Type="VI" URL="../Init FreeType.vi"/>
-		<Item Name="Load Glyph.vi" Type="VI" URL="../Load Glyph.vi"/>
-		<Item Name="New Face.vi" Type="VI" URL="../New Face.vi"/>
-		<Item Name="Get Glyph.vi" Type="VI" URL="../Get Glyph.vi"/>
-		<Item Name="Render Glyph.vi" Type="VI" URL="../Render Glyph.vi"/>
-		<Item Name="Set Char Size.vi" Type="VI" URL="../Set Char Size.vi"/>
-		<Item Name="Get Char Index.vi" Type="VI" URL="../Get Char Index.vi"/>
-		<Item Name="Set Transform.vi" Type="VI" URL="../Set Transform.vi"/>
-		<Item Name="Glyph Transform.vi" Type="VI" URL="../Glyph Transform.vi"/>
-		<Item Name="Glyph Transform Client.vi" Type="VI" URL="../Glyph Transform Client.vi"/>
-		<Item Name="Done Glyph.vi" Type="VI" URL="../Done Glyph.vi"/>
-		<Item Name="Glyph to Bitmap Glyph.vi" Type="VI" URL="../Glyph to Bitmap Glyph.vi"/>
-		<Item Name="Glyph Get CBox.vi" Type="VI" URL="../Glyph Get CBox.vi"/>
-		<Item Name="Get Outline Box.vi" Type="VI" URL="../Get Outline Box.vi"/>
+		<Item Name="Done FreeType.vi" Type="VI" URL="../Wrappers/Done FreeType.vi"/>
+		<Item Name="Done Face.vi" Type="VI" URL="../Wrappers/Done Face.vi"/>
+		<Item Name="Get Glyph Slot Ref.vi" Type="VI" URL="../Wrappers/Get Glyph Slot Ref.vi"/>
+		<Item Name="Init FreeType.vi" Type="VI" URL="../Wrappers/Init FreeType.vi"/>
+		<Item Name="Load Glyph.vi" Type="VI" URL="../Wrappers/Load Glyph.vi"/>
+		<Item Name="New Face.vi" Type="VI" URL="../Wrappers/New Face.vi"/>
+		<Item Name="Get Glyph.vi" Type="VI" URL="../Wrappers/Get Glyph.vi"/>
+		<Item Name="Render Glyph.vi" Type="VI" URL="../Wrappers/Render Glyph.vi"/>
+		<Item Name="Set Char Size.vi" Type="VI" URL="../Wrappers/Set Char Size.vi"/>
+		<Item Name="Get Char Index.vi" Type="VI" URL="../Wrappers/Get Char Index.vi"/>
+		<Item Name="Set Transform.vi" Type="VI" URL="../Wrappers/Set Transform.vi"/>
+		<Item Name="Glyph Transform.vi" Type="VI" URL="../Wrappers/Glyph Transform.vi"/>
+		<Item Name="Glyph Transform Client.vi" Type="VI" URL="../Wrappers/Glyph Transform Client.vi"/>
+		<Item Name="Done Glyph.vi" Type="VI" URL="../Wrappers/Done Glyph.vi"/>
+		<Item Name="Glyph to Bitmap Glyph.vi" Type="VI" URL="../Wrappers/Glyph to Bitmap Glyph.vi"/>
+		<Item Name="Glyph Get CBox.vi" Type="VI" URL="../Wrappers/Glyph Get CBox.vi"/>
+		<Item Name="Get Outline Box.vi" Type="VI" URL="../Wrappers/Get Outline Box.vi"/>
 	</Item>
-	<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
-	<Item Name="Freetype Drawer.lvclass" Type="LVClass" URL="../Class 1/Freetype Drawer.lvclass"/>
+	<Item Name="Example.vi" Type="VI" URL="../Wrappers/Example.vi"/>
+	<Item Name="Freetype Drawer.lvclass" Type="LVClass" URL="../Freetype Drawer/Freetype Drawer.lvclass"/>
 </Library>
