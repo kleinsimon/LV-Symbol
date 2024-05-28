@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="Browser.vi" Type="VI" URL="../LV-Awesome/Browser.vi"/>
-	<Item Name="Icon Editor.vi" Type="VI" URL="../Glyph/Glyph Source/Icon Editor.vi"/>
-	<Item Name="LV Awesome.lvclass" Type="LVClass" URL="../LV Awesome/LV Awesome.lvclass"/>
+	<Item Name="Icon Editor.vi" Type="VI" URL="../LV-Awesome/Icon Editor.vi"/>
+	<Item Name="Image To Clipboard.vi" Type="VI" URL="../LV-Awesome/Image To Clipboard.vi"/>
+	<Item Name="LV Awesome.lvclass" Type="LVClass" URL="../LV-Awesome/LV Awesome/LV Awesome.lvclass"/>
 </Library>

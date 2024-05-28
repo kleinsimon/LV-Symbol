@@ -14,7 +14,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Glyph .NET.lvlib" Type="Library" URL="../Canvas/Glyph .NET.lvlib"/>
-		<Item Name="Image To Clipboard.vi" Type="VI" URL="../LV Awesome/Image To Clipboard.vi"/>
 		<Item Name="Glyph Drawer.lvlib" Type="Library" URL="../Glyph/Glyph Drawer.lvlib"/>
 		<Item Name="LV-Awesome.lvlib" Type="Library" URL="../LV-Awesome.lvlib"/>
 		<Item Name="Test Listbox.vi" Type="VI" URL="../Test Listbox.vi"/>
