@@ -102,7 +102,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="libfreetype.dll" Type="Document" URL="../Freetype Drawer/libfreetype.dll"/>
-			<Item Name="libfreetype_64.dll" Type="Document" URL="../Freetype Drawer/libfreetype_64.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
